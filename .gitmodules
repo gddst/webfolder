@@ -1,0 +1,3 @@
+[submodule "packages/webnode"]
+	path = packages/webnode
+	url = https://github.com/gddst/webnode
