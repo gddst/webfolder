@@ -1,0 +1,21 @@
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Type</th>
+  </tr>
+
+  {% for name in dirnames %}
+  <tr>
+    <td>{{ name }}</td>
+    <td>Folder</td>
+  </tr>
+  {% endfor %}
+
+  {% for name in filenames %}
+  <tr>
+    <td>{{ name }}</td>
+    <td>File</td>
+  </tr>
+  {% endfor %}
+
+</table>

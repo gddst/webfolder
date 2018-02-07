@@ -5,6 +5,12 @@
 	<title>webfolder</title>
 </head>
 <body>
-Webfolder
+Folder: {{ dirpath }}
+  <dir>
+    {% include 'filetree.html' %}
+  </dir>
+  <dir>
+    {% include 'filetable.html' %}
+  </dir>
 </body>
 </html>
